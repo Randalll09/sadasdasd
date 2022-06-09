@@ -1,13 +1,20 @@
 @charset "utf-8";
 :root {
-  --action-btn: #fff4ff;
-  --light-purple: #faf8ff;
-  --action-btn-before: #46459a;
-  --border-color: #00125c;
+  --action-btn: #ffd1f2;
+  --other-btn: #ffd1f2;
+  --light-color: #faf8ff;
+  --action-btn-shadow: #46459a;
+  --border-color: #46459a;
   --icon-color: #46459a;
-  --health-color: #46b397;
-  --happy-color: #e85b86;
-  --nav-color: #6a65be;
+  --health-color: #42ddaf;
+  --happy-color: #ee7674;
+  --nav-color: rgb(214, 175, 255);
+  --border: 2px solid var(--border-color);
+  --font-color: #46459a;
+  --color-bg-dark: #c974b1;
+  --color-bg-light: #c98be3;
+  --color-overlay-medium: rgba(48, 8, 8, 0.1);
+  --color-overlay-dark: rgba(52, 22, 123, 0.2);
 }
 * {
   margin: 0;
