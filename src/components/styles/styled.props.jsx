@@ -83,9 +83,9 @@ const Buttons = styled.button`
   border-radius: 8px;
   position: relative;
   color: var(--icon-color);
-  box-shadow: -1px -1px 1px var(--other-btn),
+  box-shadow: 0px 0px 1px var(--other-btn),
     //top highlight
-    0 0 0 4px var(--color-overlay-medium),
+    0 0 0 2px var(--color-overlay-medium),
     //outer shadow
     1px 1px 1px var(--color-bg-dark),
     //bottom lowlight
@@ -123,7 +123,7 @@ const ActButton = styled.div`
     position: absolute;
     outline: none;
     border: var(--border);
-    box-shadow: -1px -1px 1px var(--action-btn),
+    box-shadow: 0px 0px 1px var(--action-btn),
       //top highlight
       0 0 0 4px var(--color-overlay-medium),
       //outer shadow
