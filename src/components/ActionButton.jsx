@@ -3,7 +3,7 @@ import { ActButton } from './styles/styled.props';
 
 const ActionButton = ({ action, onClick = () => {}, icon }) => {
   return (
-    <ActButton onClick={onClick}>
+    <ActButton action={action} onClick={onClick}>
       <button>{icon}</button>
     </ActButton>
   );

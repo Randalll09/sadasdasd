@@ -119,7 +119,10 @@ const ActButton = styled.div`
     width: 64px;
     height: 64px;
     border-radius: 40px;
-    background-color: var(--action-btn);
+    background-color: ${(props) =>
+      props.action < 50
+        ? ` var(--action-btn-deprecated)`
+        : ` var(--action-btn)`};
     position: absolute;
     outline: none;
     border: var(--border);
